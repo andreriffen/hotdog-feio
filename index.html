@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Monte o seu hot dog</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Monte o seu hot dog</h1>
+      <form>
+        <label for="pao">Escolha o pão:</label>
+        <select id="pao" name="pao">
+          <option value="comum">Comum</option>
+          <option value="integral">Integral</option>
+          <option value="gluten-free">Gluten-free</option>
+        </select>
+        <br>
+
+        <label for="ketchup">Ketchup:</label>
+        <input type="checkbox" id="ketchup" name="ketchup">
+        <br>
+
+        <label for="mostarda">Mostarda:</label>
+        <input type="checkbox" id="mostarda" name="mostarda">
+        <br>
+
+        <label for="salsicha">Escolha a salsicha:</label>
+        <select id="salsicha" name="salsicha">
+          <option value="bovina">Bovina</option>
+          <option value="suina">Suina</option>
+          <option value="vegan">Vegan</option>
+        </select>
+        <br>
+
+        <input type="submit" value="Enviar">
+      </form>
+
+      <div id="resultado"></div>
+
+      <div class="historia">
+        <h2>História do hot dog</h2>
+        <p>O hot dog foi criado em Frankfurt, na Alemanha, no final do século XVII. Ele foi trazido para os Estados Unidos por imigrantes alemães e rapidamente se tornou popular. A qualidade dos ingredientes é fundamental para fazer um hot dog delicioso e saudável.</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

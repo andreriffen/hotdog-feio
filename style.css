@@ -1,0 +1,73 @@
+body {
+  background-image: linear-gradient(to bottom, #FF3030, #FFFF00);
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #8B0000;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #8B0000;
+}
+
+select {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+input[type="checkbox"] {
+  margin-bottom: 10px;
+}
+
+#resultado {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #8B0000;
+}
+
+.historia {
+  background-color: #FF8C00;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.historia h2 {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+}
+
+.historia p {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.5;
+  color: #FFFFFF;
+}
